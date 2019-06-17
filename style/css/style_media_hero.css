@@ -1,0 +1,59 @@
+/*---------------- MEDIA  -----------------------*/
+/*---------------- MEDIA  -----------------------*/
+/*---------------- MEDIA  -----------------------*/
+
+@media(min-width:1300px){
+  .SPC_HeroImg{
+    height: 600px !important;
+  }
+   .gMap{
+    height:600px !important;
+  }
+}
+
+@media(max-width:1299px){
+  .SPC_HeroImg{
+    height: 550px !important;    
+  }
+  .gMap{
+    height:550px !important;
+  }
+}
+
+@media(max-width:991px){
+  .SPC_HeroImg{
+    height: 450px !important;
+  }
+  .gMap{
+    height:450px !important;
+  }
+}
+
+@media(max-width:767px){
+  .SPC_HeroImg{
+    height: 350px !important;
+  }
+}
+
+@media(max-width:576px){
+  .SPC_HeroImg{
+    height: 300px !important;
+  }
+  .gMap{
+    height:300px !important;
+  }
+}
+
+@media(max-width:506px){
+  .SPC_HeroImg{
+    height: 250px !important;
+  }
+  .gMap{
+    height:250px !important;
+  }
+}
+
+
+
+
+

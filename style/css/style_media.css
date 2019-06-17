@@ -1,0 +1,244 @@
+/*---------------- MEDIA  -----------------------*/
+/*---------------- MEDIA  -----------------------*/
+/*---------------- MEDIA  -----------------------*/
+
+
+@media(min-width:1300px){
+  .myLogoTitle{  
+    font-size:42px; 
+    font-weight: 900;
+  }
+  .navbar .navbar-nav .nav-item .nav-link{
+    font-size:25px;
+    font-weight:900;
+  }
+  .growthImg{
+    height: 250px; 
+    width: 300px;
+  }
+  .serviceText{
+    font-size: 2em;
+  }
+  .teamImg{
+    height: 150px;
+    width: 150px;
+  }
+  .ourTeamHeroImg2{
+    height: 600px !important;
+  }
+  .socialMediaImage{
+    height:75px; 
+    width:75px;
+  }
+}
+
+@media(min-width:992px) and (max-width:1299px){
+  .myLogoTitle{  
+    font-size:28px; 
+    font-weight: 900;
+  }
+  .navbar .navbar-nav .nav-item .nav-link{
+    font-size:18px;
+    font-weight:900;
+  }
+  .myLogoImg{
+    width: 90px;
+    height: 90px;
+  }
+  .growthImg{
+    height: 120px; 
+    width: 170px;
+  }
+  .serviceText{
+    font-size: 1.7em;
+  }
+  .teamImg{
+    height: 150px;
+    width: 150px;    
+  }
+  .ourTeamHeroImg2{
+    height: 550px !important;
+  }
+  .socialMediaImage{
+    height:75px; 
+    width:75px;
+  }
+
+}
+
+@media(max-width:991px){
+  .myLogoTitle{  
+    font-size:31px; 
+    font-weight: 900;
+  }
+  .navbar .navbar-nav .nav-item .nav-link{
+    font-size:22px;
+    font-weight:900;
+  }
+  .myLogoImg{
+    width: 80px;
+    height: 80px;
+  }
+  .missionStatementTitle{
+    font-size: 60px;
+  }
+  .growthImg{
+    height: 100px; 
+    width: 150px;
+  }
+  .serviceText{
+    font-size: 1.5em;
+  }
+  .teamImg{
+    height: 150px;
+    width: 150px;
+  }
+  .ourTeamHeroImg2{
+    height: 450px !important;
+  }
+  .socialMediaImage{
+    height:75px; 
+    width:75px;
+  }
+  .contactUsText{
+    font-size:1.25em;
+  }
+}
+
+@media(max-width:767px){
+  .missionStatementTitle{
+    font-size: 50px;
+  }
+  .myBadge{
+    height: 200px; 
+    width: 300px;
+  }
+  .growthImg{
+    height: 250px; 
+    width: 300px;
+  }
+  .serviceText{
+    font-size: 1.5em;
+  }
+  .myCard{
+    border-color:#0E0F55; 
+    border-style:solid;
+    border-width:0.2em;
+  }
+  .testimonialsLine{  
+    background-color:#28a745;
+  }
+  .teamImg{
+    height: 150px;
+    width: 150px;
+  }
+  .ourTeamHeroImg2{
+    height: 350px !important;
+  }
+  .contactUsText{
+    font-size:1.3em;
+    font-weight: bold;  
+  }
+  .contactUsText{
+    font-size:1.em;
+    font-weight: bold;  
+  }
+  .contactTitles{
+    color: #28A755;
+    font-weight: bold;
+    font-size: 2.3em;
+  }
+  .socialMediaImage{
+    height: 67px; 
+    width: 67px;
+  }
+
+}
+
+@media(max-width:576px){
+  .missionStatementTitle{
+    font-size: 50px;
+  }
+  .missionStatementText{
+    font-size: 1.5em;
+  }
+  .myBadge{
+  }
+  .growthImg{
+    height: 90px; 
+    width: 140px;
+  }
+  .serviceText{
+    font-size: 1em;
+  }
+  .myCard{
+    border-color:#0E0F55; 
+    border-style:solid;
+    border-width:0.2em;
+  }
+  .testimonialsLine{  
+    background-color:#28a745;
+  }
+  .myCardUE{
+    border-color:#0E0F55; 
+    border-style:solid;
+    border-width:0.2em;
+  }
+  .UEsmallLine{
+    background-color:#28a745 ;
+  }
+  .teamImg{
+    height: 140px;
+    width: 140px;
+  }
+  .employeeName{
+    font-size: 1.25em !important;
+  }
+  .employeeTitle{
+    font-size:1.0em !important; 
+  }
+  .contactUsText{
+    font-size:1.0em;
+    font-weight: bold;  
+  }
+  .contactTitles{
+    color: #28A755;
+    font-weight: bold;
+    font-size: 2.0em;
+  }
+  .socialMediaImage{
+    height: 63px; 
+    width: 63px;
+  }
+
+}
+
+@media(max-width:506px){
+  .heroTitle{
+    font-size: 75px;
+  }
+  .teamImg{
+    height: 120px;
+    width: 120px;
+  }
+  .employeeName{
+    font-size: 1.0em!important;
+  }
+  .employeeTitle{
+    font-size:0.85em !important; 
+  }
+  .ourTeamHeroImg2{
+    height: 250px !important;
+  }
+  .socialMediaImage{
+    height: 45px; 
+    width: 45px;
+  }
+
+
+}
+
+
+
+
+

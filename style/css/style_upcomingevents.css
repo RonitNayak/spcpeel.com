@@ -1,0 +1,33 @@
+body{
+ color: black;
+}
+/*---------------- UPCOMING EVENTS -----------------------*/
+/*---------------- UPCOMING EVENTS -----------------------*/
+/*---------------- UPCOMING EVENTS -----------------------*/
+
+.HeroImg{
+ background: 
+  /* top, transparent red, faked with gradient */
+  linear-gradient(
+   rgba(0, 0, 0, 0), 
+   rgba(0, 0, 0, 0)
+  ), 
+  /* bottom, image */
+  /*url('../../img/communitydev_28A745.png') ;*/
+    url('../../img/stockImage/communitydev.jpg') ;
+ background-size:cover;
+ background-position: 0% -250px;
+ /*background-image: url("/img/communitydev_hero14.png");*/
+
+ /* #1e20b9 #1b1d95 #1a1c98 #1f21bf */
+ /* #1e20b9 #141576 #0E0F55 */
+ height: 600px;
+
+ /*min-height: 500px;*/
+ background-attachment: fixed;
+ background-position:;
+ background-repeat: no-repeat;
+ background-size:;
+
+
+}

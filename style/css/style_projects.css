@@ -1,0 +1,68 @@
+body{
+	color: black;
+}
+.mainRow{
+	background-color: ;
+}
+.projectTitle{
+	color: #28A745;
+}
+.borderUnderline{
+	border-bottom: solid;
+	/*border-bottom-color: #1e20b9;*/
+	border-bottom-color: #28A745;
+	border-bottom-width: 3px;
+}
+
+
+.HeroImg{
+	background: 
+		/* top, transparent red, faked with gradient */
+		linear-gradient(
+			rgba(0, 0, 0, 0), 
+			rgba(0, 0, 0, 0)
+		), 
+		/* bottom, image */
+		url('../../img/stockImage/diversity1.jpg') ;
+	background-size:cover;
+	background-position: 0px 50%;
+	/*background-image: url("/img/communitydev_hero14.png");*/
+
+	/* #1e20b9 #1b1d95 #1a1c98 #1f21bf */
+	/* #1e20b9 #141576 #0E0F55 */
+	height: 600px;
+
+	/*min-height: 500px;*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: ;
+
+
+}
+.aMy{
+	color: inherit; 
+}
+/*
+.projectTitle{
+color: black;	
+}
+.projectBox{
+color:;	
+background-color: red;
+}
+.projectTitle2{
+color: white;	
+}
+.projectBox2{
+color:;	
+background-color: forestgreen;
+}*/
+.fundedBy{
+	font-size: 0.55em;
+}
+.completedBG{
+background-color: #28a745;
+	color: white;
+	border-radius: 5em;
+}

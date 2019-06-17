@@ -1,0 +1,52 @@
+body{
+	color: black;
+}
+ul {
+    text-align: ;
+    list-style-position: ;
+}
+.mainRow{
+	background-color: white;
+}
+.borderUnderline{
+	border-bottom: solid;
+	/*border-bottom-color: #1e20b9;*/
+	border-bottom-color: #28A745;
+	border-bottom-width: 3px;
+}
+
+.HeroImg{
+	background: 
+		/* top, transparent red, faked with gradient */
+		linear-gradient(
+			rgba(0, 0, 0, 0), 
+			rgba(0, 0, 0, 0)
+		), 
+		/* bottom, image */
+		url('../../img/stockImage/history4.png') ;
+	background-size:cover;
+	background-position: 0px 0px;
+	/*background-image: url("/img/communitydev_hero14.png");*/
+
+	/* #1e20b9 #1b1d95 #1a1c98 #1f21bf */
+	/* #1e20b9 #141576 #0E0F55 */
+	height: 600px;
+
+	/*min-height: 500px;*/
+	background-attachment: fixed;
+	background-position:;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.aMy{
+	color: inherit; 
+}
+.historyTitle{
+font-size: 2.2em;
+	
+}
+.historyYears{
+	font-size: 4.5em;
+	font-weight: bold;
+	
+}

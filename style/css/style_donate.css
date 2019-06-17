@@ -1,0 +1,72 @@
+body{
+	color: white;
+}
+.borderUnderline{
+	border-bottom: solid;
+	border-bottom-color: #1e20b9;
+	border-bottom-width: 3px;
+}
+.HeroImg{
+	background: 
+		/* top, transparent red, faked with gradient */
+		linear-gradient(
+			rgba(0, 0, 0, 0), 
+			rgba(0, 0, 0, 0)
+		), 
+		/* bottom, image */
+		url('../../img/stockImage/donate.jpg') ;
+	background-size:cover;
+	background-position: 0px 50%;
+	/*background-image: url("/img/communitydev_hero14.png");*/
+
+	/* #1e20b9 #1b1d95 #1a1c98 #1f21bf */
+	/* #1e20b9 #141576 #0E0F55 */
+	height: 600px;
+
+	/*min-height: 500px;*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: ;
+}
+.donateCover{
+	font-size:12em;	
+	font-weight: bolder;
+	line-height: normal;
+	color:crimson;
+}
+.aMy{
+	color: inherit; 
+}
+
+.donateTitle{
+	color: #28A745;	
+}
+.donateSection{
+	color:black;	
+	background-color:;
+}
+.donateText{
+	color:black;
+	font-size: 1.4em;
+	font-weight: bold;
+
+}
+.SPCButton{
+	background-color: #28A745;
+	color:white;	
+	border:solid #28A745 5px;
+}
+.form-control {
+	color: black !important;	
+	border: 0.15em solid black !important;
+}
+.form-control:focus {
+	color: black !important;
+	border: 0.15em solid white !important;		
+	box-shadow: 0 0 0 0.2rem #28A745 !important;
+}
+
+
+
+

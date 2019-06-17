@@ -1,0 +1,105 @@
+body{
+	color:black;
+	font-family: 'Noticia Text', serif;
+	/*font-family: 'Nunito', sans-serif;*/
+	background-color:white;
+}
+a {
+	text-decoration: none !important;
+}
+p{
+	letter-spacing:0.05em;
+	/*	font-family: 'Concert One', cursive;
+	font-family: 'Lora', serif;*/
+	font-family: 'Nunito', sans-serif;
+}
+.collapse.show {
+  display:flex  !important;
+}
+.collapse {
+  display: none !important;
+} 
+
+.ourTeamHeroImg{
+	background: 
+		/* top, transparent red, faked with gradient */
+		linear-gradient(
+			rgba(0, 0, 0, 0.5), 
+			rgba(0, 0, 0, 0)
+		), 
+		/* bottom, image */
+		url('../../img/stockImage/team_cropped.png') ;
+	background-size:;
+	background-position: 0px 0px;
+	/*background-image: url("/img/communitydev_hero14.png");*/
+
+	/* #1e20b9 #1b1d95 #1a1c98 #1f21bf */
+	/* #1e20b9 #141576 #0E0F55 */
+	height: 600px;
+
+	/*min-height: 500px;*/
+	background-attachment: ;
+	background-position:;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+.ourTeamTitle{
+}
+.Team_smallLine{
+	width:75%;
+	height: 0.25em;
+	border:solid 0px;
+	color:;
+	background-color: #28a745;
+}
+
+.headBackground{
+	background-color: #28a745;
+}
+.teamImg{
+	max-height: 250px;
+	max-width: 250px;
+
+}
+.employeeNum{
+	border: solid 0.2em;
+	border-radius: 5%;
+	border-color: #0E0F55;
+	color: black;
+	background-color: white;
+	transition: all 0.3s ease-out  ;
+}
+.employeeNum:hover{
+	border: solid 0.2em;
+	border-radius: 5%;
+	border-color: #0E0F55; 
+	color: black;
+	background-color: #594FF4;
+	transition: all 0.3s ease-out;
+	/* 496CCA 1B2D95 */
+	/* #BEBED7 #DCDCFF */
+	/* 244480  8CE9A3  594FF4 */
+}
+.employeeName{
+	color: black;
+	font-weight: bold;
+	font-size: 1.25em;
+	transition: all 0.3s ease-out  ;
+}
+.employeeTitle{
+	color: black;
+	font-weight: bold;
+	font-size:1.05em; 
+	transition: all 0.3s ease-out  ;
+}
+.employeeTitle2{
+	color: black;
+	font-weight:100;
+	font-size:1.1em; 
+	line-height:1.5em;
+	transition: all 0.3s ease-out  ;
+}
+.employeeInfoHover{
+	color: white;
+	transition: all 0.3s ease-out  ;
+}

@@ -1,0 +1,646 @@
+/*---------------- BODY -----------------------*/
+/*---------------- BODY -----------------------*/
+/*---------------- BODY -----------------------*/
+body{
+  color:white;
+  font-family: 'Noticia Text', serif;
+  background-color:white;
+}
+a,u{
+  text-decoration-line: none;
+  text-decoration: none; 
+}
+
+.shadow{
+  box-shadow: 12px 12px 5px grey;
+
+}
+.smallLine{
+  width:10%;
+  height: 0.25em;
+  border:;
+  border-radius: 0%;
+  /*background-color:#1e20b9;*/
+  background-color:#28a745;
+  color: white;
+}
+.zoom{   
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+}
+.zoom2{   
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+}
+.zoom3{   
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+}
+.transition{
+  -webkit-transform: scale(1.05); 
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+
+}
+.transition2{
+  -webkit-transform:translatey(-25px); 
+  -moz-transform:translatey(-25px);
+  -o-transform: translatey(-25px);
+  transform:translatey(-25px);
+}
+.transition3{
+  -webkit-transform: scale(1.4); 
+  -moz-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);
+}
+.SPC-button{
+  color: white;
+  border: solid #28A745;
+  border-radius: 12.5%;
+  background-color: #28A745;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+.SPC-button:hover{
+  color: #28A745;
+  border: solid #28A745;
+  border-radius: 12.5%;
+  background-color: white;
+  font-weight: bold;
+  font-size: 1.15em;
+}
+.modal-header {
+  border-bottom: 2px solid #28A745 !important;
+}
+.modal-footer {
+  border-top: 2px solid #28A745 !important;
+}
+.SPC-modal-body{
+ line-height:2em !important; 
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.SPC-close{
+  color: #28A745;
+}
+/*
+.translate{
+-webkit-transform: translateY(1px); 
+-moz-transform: translateY(1px);
+-o-transform: translateY(1px);
+transform:translateY(1px);
+}*/
+
+/*---------------- NAVBAR -----------------------*/
+/*---------------- NAVBAR -----------------------*/
+/*---------------- NAVBAR -----------------------*/
+
+.myNav{
+  background-color:white;
+}
+.title{    
+  text-align: center;
+}
+.myLogoTitle{
+  font-size:92px; 
+  font-weight:900;
+  text-align:center;
+  color:#28a745; 
+}
+.myLogoImg{
+  width: 100px;
+  height: 100px;
+}
+
+.navbar{
+  line-height: 7em;
+}
+.navbar-nav{
+  line-height: 2em; 
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  font-weight:900;
+  margin-left:auto;
+  color: black;
+  /*font-family: 'Noticia Text', serif; */
+}
+.dropdown-toggle::after {
+  /*/display:none;*/
+  display:;
+}
+.dropdown:hover>.dropdown-menu {
+  /*display: block;*/
+  display:;
+}
+.navbar-nav .nav-item .nav-link {
+  margin-left:10px;
+  margin-right:10px;
+}
+.navLink2{ 
+  text-decoration: none;
+  /* border-bottom: 0.13em solid transparent;*/
+  transition: all ease-in-out 0.2s;
+}
+.navLink2:hover{
+  color: #28a745;
+  border-color: #28a745;
+}
+#navLink2 .nav-link:hover, .nav-link:focus {
+  color: #28a745;
+  border-color: #28a745;
+}
+.dropdown-item {
+  transition: all ease-in-out 0.2s;
+}
+.dropdown-item:hover, .dropdown-item:focus { 
+  background-color: #28a745;
+}
+.navbar-nav > .active > a{
+  color: #28A745 !important;
+  background-color: red !important;
+}
+.SPC-active{
+  color: #28A745 !important;
+  background-color: !important;
+}
+.SPC-Donate{
+  background-color: #28A745;
+  color: white !important;
+  border-radius: 12.5%;  
+  font-size: 1.7em !Important;
+  border: solid #28A745 !important;
+
+}
+.SPC-Donate:hover{
+  background-color: white;
+  color: #28A745 !important;
+  border-radius: 12.5%;
+  font-size: 1.7em !Important;
+  border: solid #28A745 !important;
+
+}
+.nav-item > a:hover {
+  color: #28A745 !important;
+}
+
+/*---------------- HERO -----------------------*/
+/*---------------- HERO -----------------------*/
+/*---------------- HERO -----------------------*/
+
+#hero{
+  background: 
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ), 
+    /* bottom, image */
+    url('../../img/communitydev_hero16.png') ;
+  background-size:cover;
+  background-position: 0 10%;
+  /*background-image: url("/img/communitydev_hero14.png");*/
+
+  /* #1e20b9 #1b1d95 #1a1c98 #1f21bf */
+  /* #1e20b9 #141576 #0E0F55 */
+  height: 800px;
+
+  /*min-height: 500px;*/
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heroTitle{
+  font-size: 100px;
+  color: #28a745;
+  font-weight: 900;
+}
+.heroVid{
+  width: 100%;
+  height:100%;
+}
+
+/*---------------- SERVICES -----------------------*/
+/*---------------- SERVICES -----------------------*/
+/*---------------- SERVICES -----------------------*/
+
+/* #FC440F #D7263D */
+.serviceBG{
+  /*background-color: #f9f9f9;*/
+  background-color: white;
+}
+.ourService{
+  color:black;
+  font-weight: 900;
+}
+.serviceIcon{  
+  color: #1e20b9;
+}
+.serviceText{
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+.growthImg{
+  max-width: 400px;
+  max-height: 400px;
+}
+.sBox1{
+  width:;
+  height: ;
+  padding:;
+  background-color: white;
+  border-color: #0e0255;
+  border-style: solid;
+  border-width: 0.1em; 
+  border-radius:5%;
+}
+
+/*---------------- MISSION STATEMENT -----------------------*/
+/*---------------- MISSION STATEMENT -----------------------*/
+/*---------------- MISSION STATEMENT -----------------------*/
+
+
+#mission{
+  color:white;
+  /*background-color: ;*/
+}
+.MissionStatementBox{  
+  /*background-color:;*/
+}
+.missionStatementTitle{
+  /*background-color:;*/
+  color:white;
+  font-size: 95px;
+  font-weight: 900;
+}
+.missionStatementText{
+  /*background-color:;*/
+  color: white;
+  font-size:1.8em;
+}
+.missionStatementText:hover{
+  /*background-color: rgba(0, 102, 0, 0.5);
+  color: black;
+  font-size:1.8em;*/
+}
+.myBadge{
+  height: 500px; 
+  width: 500px;
+  /* border-radius: 10em;
+  border-style: solid;
+  border-color: green;
+  border-width: thick;*/
+}
+.myBadge:hover{
+  /*border-color:green;
+  background-color: rgba(0, 102, 0, 0.5);*/
+}
+#badge{
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0,25 , 0.9), 
+      rgba(0, 0,25, 0.9)
+    ), 
+    /* bottom, image */
+    url('../../img/communitydev.jpg') ;
+  background-size:cover;
+  background-position: 0 10%;
+
+  background-attachment: fixed;
+  background-position:top ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*---------------- SERVICES -----------------------*/
+/*---------------- SERVICES -----------------------*/
+/*---------------- SERVICES -----------------------*/
+
+.myContainer {
+  position: relative;
+  width: 50%;
+}
+.myImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.myOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.myContainer:hover .myOverlay {
+  opacity: 0.85;
+}
+.myText {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.serviceTitle{
+  font-size: 38px;
+  font-weight: 900;
+  color: black;
+}
+.serviceImg2{ 
+  height: 75%;
+  width: 85%;
+  text-align: center;
+
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0,25 , 0.9), 
+      rgba(0, 0,25, 0.9)
+    ), 
+    /* bottom, image */
+    url('../../img/communitydev.jpg') ;
+  background-size:cover;
+
+
+  background-attachment: fixed;
+  background-position:top ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+.serviceImg{
+  width: 85%; 
+  height: auto;
+  text-align: center;
+}
+.serviceImg:hover{
+  width: 85%; 
+  height: auto;
+  text-align: center;
+}
+/*
+.serviceText{
+font-size: 28px; 
+color: black;
+font-weight: 900;
+}*/
+
+
+/*---------------- TESTIMONIALS -----------------------*/
+/*---------------- TESTIMONIALS -----------------------*/
+/*---------------- TESTIMONIALS -----------------------*/
+.testimonialsTitle{
+  color: black;
+  font-weight: 900;
+}
+.myCard{
+  border-color:#0E0F55; 
+  border-style:solid;
+  border-width:0.1em;
+  color:black;  
+  background-color: white;
+}
+.myCard:hover{ 
+  border-color:; 
+  border-style: solid;
+  border-width:;
+  color:white;  
+  background-color: #0E0F55;
+  transition: all 0.3s ease-out;
+}
+.myFooter{
+  color:black;
+}
+.myFooterHover{
+  color:white;
+  transition: all 0.3s ease-out  ;
+}
+.clickHereText{
+  text-decoration:none;
+  color: black;
+  font-size: 1em;
+}
+.clickHereTextHover {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  transition: all 0.3s ease-out  ;
+}
+.testimonialsLine{
+  width:87%;
+  height: 0.1em;
+  border:;
+  background-color:black;
+}
+.testimonialsLineHover{
+  width:87%;
+  height: 0.1em;
+  border:;
+  background-color:#28a745;
+}
+.quoteName{  
+  font-size: 1.3em
+}
+/*---------------- DONATE BAR -----------------------*/
+/*---------------- DONATE BAR -----------------------*/
+/*---------------- DONATE BAR -----------------------*/
+.donateBar{
+  /* background: 
+
+  linear-gradient(
+  rgba(0, 0, 0, 0.5), 
+  rgba(0, 0, 0, 0.5)
+  ), 
+
+  url('/img/communitydev_green.jpg') ;*/
+
+  background-image: url("../../img/communitydev_hero16.png");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: ;
+}
+.donateTitle{
+  /*color: #28a745;*/
+  color:white;
+  font-weight: 900;
+}
+.donateText{
+  /*color: #28a745;*/
+  color:white;
+  font-size: 1.8em;
+}
+.donateLinksHover{
+  color: white;
+  font-size: 1.87em;
+}
+.donateLinksHover:hover{
+  color: white;
+  font-size: 1.97em;
+  text-decoration-line: none;
+}
+
+/*---------------- UPCOMING EVENTS -----------------------*/
+/*---------------- UPCOMING EVENTS -----------------------*/
+/*---------------- UPCOMING EVENTS -----------------------*/
+
+.UpcomingEventsTitle{
+  color: black;
+  font-weight: 900;
+}
+.myCardUE{
+  border-color:#0E0F55; 
+  border-style:solid;
+  border-width:0.1em;
+  background-color:white;
+  color: black;
+}
+.myCardUE:hover{ 
+  border-color:#0E0F55; 
+  border-style:solid;
+  border-width:0.1em;
+  background-color: #0E0F55;
+  color:white; 
+  transition: all 0.3s ease-out;
+}
+/* 496CCA 1B2D95 */
+/* #BEBED7 #DCDCFF */
+/* 244480  8CE9A3  594FF4 */
+.upcomingEventsBG{
+  /* background-color:#014579;*/
+  background-color:; 
+}
+.upcomingTitleText{
+  font-size: 1.5em;
+  /* color: white;*/
+}
+.upcomingText{
+  font-size: 1.1em;
+  /*color: white;*/
+}
+.UEsmallLine{
+  width:87%;
+  height: 0.2em;
+  background-color:black ;
+}
+.UEsmallLineHover{
+  width:87%;
+  height: 0.2em;
+  background-color:#28a745 ;
+}
+.UpcomingEventsFooter{
+  font-size: 1.2em;  
+  font-weight: 900;
+}
+/*---------------- FOOTER -----------------------*/
+/*---------------- FOOTER -----------------------*/
+/*---------------- FOOTER -----------------------*/
+
+.footerLinks{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+
+}
+.footerLinks:hover{
+  text-decoration:none;
+  color: white;
+  font-weight: bold;
+}
+.footerText{
+  color:black; 
+  font-weight: bold;
+}
+.footerLinkBold{
+  color:black; 
+  font-weight: bold;
+}
+.footerLinkBold:hover{
+  color:white; 
+  font-weight: bold;
+}
+.far{
+  /*background-color: ;*/
+  text-align: center;
+  line-height: 52px;
+}
+.fas{
+  /*background-color: ;*/
+  text-align: center;
+  line-height: 52px;
+}
+.SPC-footer-icon{
+  color: black;
+  text-decoration: none;
+}
+.SPC-footer-icon:hover{
+  color: white;
+  text-decoration: none;
+}
+
+/*---------------- OTHER -----------------------*/
+/*---------------- OTHER -----------------------*/
+/*---------------- OTHER -----------------------*/
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.myContainer {
+  position: relative;
+  /* text-align:;*/
+  color: white;
+}
+#DonateMiniHero{
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0,0 , 0.5), 
+      rgba(0, 0,0, 0.9)
+    ), 
+    /* bottom, image */
+    url('../../img/communitydev.jpg') ;
+  background-size:cover;
+  background-position: 0 10%;
+  height: 100px;
+}
+.hehe{
+  color: blue;
+}
+.money {
+  width: 100px;
+  height: 100px;
+  background: green;
+  position: relative;
+}
+.money:hover{
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  transition: all 2s;
+}
+/*
+24953E A2CF5E 0FFCFF FFEB97
+*/
