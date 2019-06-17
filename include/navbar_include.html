@@ -1,0 +1,120 @@
+<nav class="myNav navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="d-flex col-12 col-sm-2">      
+                <img src="../img/SPClogo.png" width=100px; height="100px" class="myLogoImg mx-auto imgLogo" alt="SPC Logo">  
+            </div>
+            <div class="d-flex col-12 col-sm-7">          
+                <a class="ml-md-3 mx-auto navbar-brand overflow-visible" href="../index.html"><h5 class="myLogoTitle">Social Planning Council<br>of Peel</h5></a>
+            </div>
+            <div class="col">        
+                <div class="row">            
+                    <div class="d-flex col-12 col-sm-12">
+                        <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav" >
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-center dropdown-toggle" href="#About" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu dropdownActive" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-center" href="../include/aboutus.html">About us</a>
+                        <a class="dropdown-item text-center" href="../include/ourteam.html">Our Team</a>
+                        <a class="dropdown-item text-center" href="../include/ourservice.html">Our Services</a>
+                        <a class="dropdown-item text-center" href="../include/history.html">Our History</a>
+                        <a class="dropdown-item text-center" href="../include/testimonials.html">Testimonials</a>
+                        <!-- <a class="dropdown-item text-center" href="/../include/donate.html">Donate</a> -->
+                    </div>
+                </li>         
+                <li id="" class="nav-item">
+                    <a class="nav-link text-center navLink2 " href="../include/data.html">Data</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-center dropdown-toggle navLink2" href="#Projects" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu dropdownActive" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-center" href="../include/project1.html">Community-Based Research</a>
+                        <a class="dropdown-item text-center" href="../include/project2.html">Neighbourhood  Development</a>
+                        <a class="dropdown-item text-center" href="../include/project3.html">Capacity Building</a>
+                        <a class="dropdown-item text-center" href="../include/project4.html">Diversity, Gender-Based Analysis & Social Inclusion</a>
+                        <a class="dropdown-item text-center" href="../include/project5.html">Fiscal Sponsorships</a>
+                        <a class="dropdown-item text-center" href="../include/project6.html">Consulting Services</a> 
+                    </div>
+                </li>      
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-center dropdown-toggle navLink2" href="#More" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More
+                    </a>
+                    <div class="dropdown-menu dropdownActive" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-center" href="#WhatsNew">What's New</a>
+                        <a class="dropdown-item text-center" href="../include/upcominevents.html">Upcoming Events</a>
+                    </div>
+                </li>                                
+                <li class="nav-item text-center px-5 px-md-0 px-sm-6 mx-0 mx-sm-6 mx-md-0" >
+                    <a class="nav-link text-center navLink2 SPC-Donate" href="../include/donate.html">Donate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center navLink2" href="../include/contactus.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        /*
+        console.log("HEH0 was hovered");
+        $('ul.navbar-nav > li').click(function(e) {
+            console.log("HEH1 was hovered");            
+            $('ul.navbar-nav > li').removeClass('active');
+            $(this).addClass('active');
+        });
+        */
+
+/*
+        var pathname = window.location.pathname;
+        console.log( pathname); 
+        var n;
+        n = 0;
+        console.log("n is: " +  n);
+        $("a[href]").each(function() {
+            var link = this.href;
+            console.log("Before: link is: " +  link);
+            link = this.href.replace('http://208.68.104.142', '');
+            console.log("After: link is: " +  link);
+            if(link == pathname){
+               /* $(this.a).addClass('active'); */
+               /* $(this).a.addClass('active'); */
+              /* n = n + 1;
+            }
+            console.log("NEW n is: " +  n);
+        });
+        console.log("NEW 2 n is: " +  n);
+*/
+
+        var pathname = window.location.pathname;
+        console.log("Orginal : " +  pathname); 
+        var pathname = pathname.replace('/lfcshared16531/spcpeel_modern', '');
+        console.log("Replaced: " +  pathname); 
+       /* var NewestPath = newPath.replace('/lfcshared16531/spcpeel_modern', '');
+         console.log("Replacedx2: " +  NewestPath); */
+        $('.nav-item').find('a[href*="' + pathname + '"]').addClass('SPC-active');
+        /*$('.nav-item').find('a[href*="' + pathname + '"]').parent('.dropdownActive').siblings('a').addClass('SPC-active');*/
+        
+        $('.SPC-active').parent('.dropdownActive').siblings('a').addClass('SPC-active');
+
+        /*
+        $(function() {
+            $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+        });
+        */
+    </script>
+
+</nav> 

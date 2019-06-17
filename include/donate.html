@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <title>SPC</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+
+
+    <link async href="http://fonts.googleapis.com/css?family=Fredoka%20One" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Noticia+Text" rel="stylesheet">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/css/bootstrap.css">
+    <link rel="stylesheet" href="../style/css/style.css">
+    <link rel="stylesheet" href="../style/css/style_donate.css">
+    <link rel="stylesheet" href="../style/css/style_media.css">
+    <link rel="stylesheet" href="../style/css/style_media_hero.css">
+    <!--<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
+
+
+
+
+  </head>
+
+  <body>
+    <div class="">     
+      <div id="navbar"></div> 
+
+
+      <div class="HeroImg SPC_HeroImg">
+
+        <!--<div class="container-fluid py-5 bgwarning">
+<div class="row justify-content-end py-5 bgdanger">
+<div class="col align-self-center bgsuccess">
+<h1 class="donateCover text-right">Donate</h1>
+</div>           
+</div>          
+</div>-->
+      </div>
+      <!-- 2nd Section -->
+      <div class="">
+        <div class="container">
+          <div class="row justify-content-end donateSection">
+            <div class="col-12 col-lg-6 col-sm-12 mx-auto ">           
+              <h1 class="donateTitle mt-5 mb-4 text-center">Support our Projects</h1>
+              <div class="donateText ">
+                The Social Planning Council (SPC) of Peel conducts research and provides services to build inclusive and economically strong communities. We cannot complete this work and implement new services without your contributions! As partners in the development of prosperous communities, your donations will touch the lives of many people in Peel. Your contributions are essential! Together, we can raise quality of life across all groups.
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 col-sm-12 my-4 my-sm-4 my-lg-0 mx-auto">
+              <h1 class="donateTitle mt-5 mb-4 text-center ">Your Information</h1>
+              <section class="col-12 col-sm-12 YourInfo"> 
+                <form method="POST" action="" autocomplete="off" class="needs-validation" novalidate>
+                  <fieldset class="form-group">                     
+                    <div class="form-group row">
+                      <div class="form-group col-6 col-sm-6 col-md-6">
+                        <label class="form-control-label my-sm-2 sr-only" for="firstname">First Name</label>
+                        <input class="form-control form-control-sm" type="text" id="firstname" name="firstname" placeholder="First Name"> 
+                        <!-- *********** THIS HAS THE PHP VALUE *********** <input class="form-control form-control-sm" type="text" id="firstname" name="firstname" placeholder="First Name" value="<?php echo $firstName; ?>" required > -->
+                        <div class="invalid-feedback">Please enter your First Name</div>
+                        <small class="form-inline form-text text-muted sr-only" id="emailHelp">We'll never share your email</small>  
+                      </div>
+                      <div class="form-group col-6 col-sm-6 col-md-6">
+                        <label class="form-control-label my-sm-2 sr-only" for="lastname">Last Name</label>
+
+                        <input class="form-control form-control-sm" type="text" id="lastname" name="lastname" placeholder="Last Name">
+                        <!-- *********** THIS HAS THE PHP VALUE *********** <input class="form-control form-control-sm" type="text" id="lastname" name="lastname" placeholder="Last Name" value="<?php echo $lastName; ?>" required > -->
+                        <div class="invalid-feedback">Please enter your Last Name</div>
+                      </div>
+                    </div>
+                    <legend></legend>
+                    <div class="form-group row">  
+                      <div class="form-group col-12 col-sm-12 col-md-12">
+                        <label class="form-control-label my-sm-2 sr-only" for="address">Address</label>
+                        <input class="form-control form-control-sm" type="text" id="address" placeholder="Address" required >
+                        <div class="invalid-feedback">Please enter your address</div>
+                        <small class="form-inline form-text text-muted mx-sm-12" id="addressExmaple">E.g: 1515 Matheson Blvd.E</small>  
+                      </div>                      
+                    </div>
+                    <div class="form-group row">
+                      <div class="form-group col-6 col-sm-6 col-md-6">
+                        <label class="form-control-label my-sm-2 sr-only" for="city">City</label>
+                        <input class="form-control form-control-sm" type="text" id="city" placeholder="City" required >
+                        <div class="invalid-feedback">Please enter your City Name</div>
+                        <small class="form-inline form-text text-muted" id="cityExample">E.g Toronto</small>  
+                      </div>
+                      <div class="form-group  col-6 col-sm-6 col-md-6">
+                        <label class="form-control-label my-sm-2 sr-only" for="province">Province</label>
+                        <select class="form-control form-control-sm" id="province" required >
+                          <option value="">Province</option>
+                          <option value="AB">Alberta</option>
+                          <option value="BC">British Columbia</option>
+                          <option value="MB">Manitoba</option>
+                          <option value="NB">New Brunswick</option>
+                          <option value="NF">Newfoundland</option>
+                          <option value="NT">Northwest Territories</option>
+                          <option value="NS">Nova Scotia</option>
+                          <option value="NU">Nunavut</option>
+                          <option value="ON">Ontario</option>
+                          <option value="PE">Prince Edward Island</option>
+                          <option value="QC">Quebec</option>
+                          <option value="SK">Saskatchewan</option>
+                          <option value="YT">Yukon Territory</option>
+                        </select>
+                        <div class="invalid-feedback">Please select your Province</div>
+                      </div>
+                      <div class="form-group col-5 col-sm-5 col-md-5">
+                        <label class="form-control-label my-sm-2 sr-only" for="zipcode">Zip Code</label>
+                        <input class="form-control form-control-sm" type="text" id="zipcode" placeholder="Zip Code" required >
+                        <div class="invalid-feedback">Pleasesad enter your Zip Code</div>
+                        <small class="form-inline form-text text-muted" id="zipcodeExample">E.g L4W2P5</small>  
+                      </div> 
+                      <div class="form-group col-7 col-sm-7 col-md-7">
+                        <label class="form-control-label my-sm-2 sr-only" for="telephone">Telephone</label>
+                        <input class="form-control form-control-sm" type="text" id="telephone" placeholder="Telephone" required >
+                        <div class="invalid-feedback">Please enter your Telephone Number</div>
+                        <small class="form-inline form-text text-muted " id="telephoneExample">E.g 9056293044</small>  
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="form-group col-12 col-sm-12 col-md-12">
+                        <label class="form-control-label my-sm-2 sr-only" for="emailaddress">Email Address</label>
+                        <input class="form-control form-control-sm" type="text" id="emailaddress" name="emailaddress" placeholder="Email Address">
+                        <!-- *********** THIS HAS THE PHP VALUE *********** <input class="form-control form-control-sm" type="text" id="emailaddress" name="emailaddress" placeholder="Email Address" value="<?php echo $email; ?>"  required > -->
+                        <div class="invalid-feedback">Plsease enter your Email Address</div>
+                        <small class="form-inline form-text text-muted " id="telephoneExample">E.g email_address@email.com</small>  
+                      </div>                                   
+                    </div>
+                  </fieldset>            
+                  <!--<button class="btn btn-primary mb-3" name="create" id="create" value="Create Submit" type="submit">Next</button> -->    
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="9N2S7YVYBLM2W">
+                    <button class="btn SPCButton mb-3 zoom" name="create" id="create" value="Create Submit" type="submit">Next</button>     
+                  </form>
+                  <!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="YFK8GF9VU5KWS">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>-->
+
+                </form>
+              </section>  
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer"></div>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <!--<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>-->
+
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="../style/js/tether.min.js"></script>     
+      <script src="../style/js/script.js"></script>
+      <script src="../style/js/script_inlcudeForIncludes.js"></script>
+      <!--<script src="../style/js/script_validation.js"></script>-->
+
+      <!--
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+
+
+    </div>
+
+  </body>
+</html>
