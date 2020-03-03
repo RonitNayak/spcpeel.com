@@ -1,5 +1,5 @@
 # spcpeel.com
-SPCPeel Website Github - Private - Ronit Nayak
+SPCPeel Website Github - Ronit Nayak
 
 
 I have decided to upload this file onto Github as a means to keep track of everything and allow everything to be stored in an easy to 
